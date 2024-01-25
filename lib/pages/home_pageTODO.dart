@@ -70,7 +70,7 @@ todoDB db = todoDB();
   }
 
   Future<void> _handleRefresh () async{
-    return await Future.delayed(Duration(seconds: 1));
+    return await Future.delayed(const Duration(seconds: 1));
   }
 
   @override
